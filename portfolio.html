@@ -29,22 +29,32 @@
           >
           <ul class="nav-list list">
             <li class="item">
-              <a href="./index.html" class="link">Студия</a>
+              <a class="link" href="./index.html">Студия</a>
             </li>
             <li class="item">
-              <a href="./portfolio.html" class="link current">Портфолио</a>
+              <a class="link current" href="./portfolio.html">Портфолио</a>
             </li>
-            <li class="item"><a href="#" class="link">Контакты</a></li>
+            <li class="item">
+              <a class="link" href="#">Контакты</a>
+            </li>
           </ul>
         </nav>
         <ul class="contacts-list list">
           <li class="item">
-            <a href="mailto:info@devstudio.com" class="link"
-              >info@devstudio.com</a
+            <a class="link" href="mailto:info@devstudio.com">
+              <svg class="icon-pag" width="16px" height="16px">
+                <use href="./images/sprite.svg#icon-mail">
+              </svg>
+              info@devstudio.com</a
             >
           </li>
           <li class="item">
-            <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
+            <a class="link" href="tel:+380961111111">
+              <svg class="icon-pag" width="16px" height="16px">
+                <use href="./images/sprite.svg#icon-phone">
+              </svg>
+              +38 096 111 11 11</a
+            >
           </li>
         </ul>
       </div>
@@ -81,7 +91,8 @@
 
           <ul class="list portfolio-page">
             <li class="flex-element">
-              <img
+              <a class="link" href="#">
+                <img
                 src="./images/service1.jpg"
                 alt="монитор ноутбука"
                 width="370"
@@ -91,9 +102,11 @@
                 <h3 class="title">Технокряк</h3>
                 <p class="text">Веб-сайт</p>
               </div>
+              </a>
             </li>
             <li class="flex-element">
-              <img
+              <a class="link" href="#">
+                <img
                 src="./images/service2.jpg"
                 alt="два парня играют в баскетбол"
                 width="370"
@@ -103,9 +116,11 @@
                 <h3 class="title">Постер New Orlean vs Golden Star</h3>
                 <p class="text">Дизайн</p>
               </div>
+              </a>
             </li>
             <li class="flex-element">
-              <img
+              <a class="link" href="#">
+                <img
                 src="./images/service3.jpg"
                 alt="логотип в виде рыбы"
                 width="370"
@@ -115,9 +130,11 @@
                 <h3 class="title">Ресторан Seafood</h3>
                 <p class="text">Приложение</p>
               </div>
+              </a>
             </li>
             <li class="flex-element">
-              <img
+              <a class="link" href="#">
+                <img
                 src="./images/service4.jpg"
                 alt="наушники"
                 width="370"
@@ -127,9 +144,11 @@
                 <h3 class="title">Проект Prime</h3>
                 <p class="text">Маркетинг</p>
               </div>
+              </a>
             </li>
             <li class="flex-element">
-              <img
+              <a class="link" href="">
+                <img
                 src="./images/service5.jpg"
                 alt="два бокса"
                 width="370"
@@ -139,9 +158,11 @@
                 <h3 class="title">Проект Boxes</h3>
                 <p class="text">Приложение</p>
               </div>
+              </a>
             </li>
             <li class="flex-element">
-              <img
+              <a class="link" href="#">
+                <img
                 src="./images/service6.jpg"
                 alt="монитор"
                 width="370"
@@ -151,9 +172,11 @@
                 <h3 class="title">Inspiration has no Borders</h3>
                 <p class="text">Веб-сайт</p>
               </div>
+              </a>
             </li>
             <li class="flex-element">
-              <img
+              <a class="link" href="">
+                <img
                 src="./images/service7.jpg"
                 alt="открытая книга"
                 width="370"
@@ -163,9 +186,11 @@
                 <h3 class="title">Издание Limited Edition</h3>
                 <p class="text">Дизайн</p>
               </div>
+              </a>
             </li>
             <li class="flex-element">
-              <img
+              <a class="link" href="">
+                <img
                 src="./images/service8.jpg"
                 alt="бейджик на верёвке"
                 width="370"
@@ -175,9 +200,11 @@
                 <h3 class="title">Проект LAB</h3>
                 <p class="text">Маркетинг</p>
               </div>
+              </a>
             </li>
             <li class="flex-element">
-              <img
+              <a class="link" href="">
+                <img
                 src="./images/service9.jpg"
                 alt="парень печатает на ноутбуке"
               />
@@ -185,6 +212,7 @@
                 <h3 class="title">Growing Business</h3>
                 <p class="text">Приложение</p>
               </div>
+              </a>
             </li>
           </ul>
         </div>
@@ -193,30 +221,61 @@
     <!--Подвал сайта-->
     <footer class="footer">
       <div class="container">
-        <a href="./index.html" class="logo"
-          ><span class="accent">Web</span>Studio</a
-        >
-        <address class="footer-address">
-          <ul class="contacts-nav list">
-            <li class="address-item">
-              <a
-                href="https://goo.gl/maps/D3uRbkzvZpGUqhTm6"
-                target="_blank"
-                rel="noopener noreferrer"
-                class="link"
-                >г. Киев, пр-т Леси Украинки, 26</a
-              >
-            </li>
-            <li class="item">
-              <a href="mailto:info@devstudio.com" class="link"
-                >info@devstudio.com</a
-              >
-            </li>
-            <li class="item">
-              <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
-            </li>
+        <div class="footer-flex">
+          <a href="./index.html" class="logo"
+            ><span class="accent">Web</span>Studio</a
+          >
+          <address class="footer-address">
+            <ul class="contacts-nav list">
+              <li class="address-item">
+                <a
+                  href="https://goo.gl/maps/D3uRbkzvZpGUqhTm6"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="link"
+                  >г. Киев, пр-т Леси Украинки, 26</a
+                >
+              </li>
+              <li class="item">
+                <a href="mailto:info@devstudio.com" class="link"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li class="item">
+                <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
+              </li>
+            </ul>
+          </address>
+        </div>
+        <div class="footer-flex">
+          <h3 class="title">присоединяйтесь</h3>
+          <ul class="list-sicials">
+            <il class="social-item"
+              ><a class="sicial-link" href="" aria-label="instagram">
+                <svg width="20" height="20">
+                  <use href="./images/sprite.svg#icon-instagram" />
+                </svg> </a
+            ></il>
+            <il class="social-item"
+              ><a class="sicial-link" href="" aria-label="twitter">
+                <svg width="20" height="20">
+                  <use href="./images/sprite.svg#icon-twitter" />
+                </svg> </a
+            ></il>
+            <il class="social-item"
+              ><a class="sicial-link" href="" aria-label="facebook">
+                <svg width="20" height="20">
+                  <use href="./images/sprite.svg#icon-facebook" />
+                </svg> </a
+            ></il>
+            <il class="social-item"
+              ><a class="sicial-link" href="" aria-label="linkedin">
+                <svg width="20" height="20">
+                  <use href="./images/sprite.svg#icon-linkedin" />
+                </svg> </a
+            ></il>
           </ul>
-        </address>
+        </div>
       </div>
     </footer>
   </body>
