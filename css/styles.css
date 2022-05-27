@@ -140,7 +140,6 @@ img {
     ),
     url("../images/hero-bg.jpg");
   background-position: center top;
-  background-size: contain;
   background-repeat: no-repeat;
 
   max-width: 1600px;
